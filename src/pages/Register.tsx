@@ -371,23 +371,7 @@ const Register = () => {
               </div>
             </div>
 
-            <div className="flex items-start">
-              <div className="flex items-center h-5">
-                <input
-                  id="terms"
-                  name="terms"
-                  type="checkbox"
-                  required
-                  className="h-4 w-4 rounded border-gray-300 text-blue-600 focus:ring-blue-500"
-                />
-              </div>
-              <div className="ml-3">
-                <label htmlFor="terms" className="text-sm text-gray-300">
-                  I agree to the terms and conditions
-                </label>
-              </div>
-            </div>
-
+         
             <div className="flex items-center justify-between">
               <div className="text-sm text-gray-400 flex items-center">
                 <AlertCircle className="w-4 h-4 mr-1" />
